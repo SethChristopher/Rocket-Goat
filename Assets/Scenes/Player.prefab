@@ -160,8 +160,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1940340900177928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.29, y: 4.98, z: 0}
-  m_LocalScale: {x: 0.5, y: 1, z: 0.5}
+  m_LocalPosition: {x: -19.77, y: 4.6907, z: 0}
+  m_LocalScale: {x: 0.34646, y: 0.50256, z: 0.34372}
   m_Children:
   - {fileID: 4360484618487360}
   - {fileID: 4067690039777542}
@@ -410,7 +410,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bb510710bc223f446b11ad116761d92d, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 0.912
   m_Pitch: 0.88
@@ -425,7 +425,7 @@ AudioSource:
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
-  BypassListenerEffects: 0
+  BypassListenerEffects: 1
   BypassReverbZones: 0
   rolloffCustomCurve:
     serializedVersion: 2
@@ -516,5 +516,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87d42285d2d2fc94faa830295f231cf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rcsThrust: 352.53
-  mainThrust: 50
+  rcsThrust: 150
+  mainThrust: 19.37
+  mainEngine: {fileID: 8300000, guid: 27cb25bd3ae3ee54593e6ea11b5fb5f8, type: 3}
+  playerDeath: {fileID: 8300000, guid: 1a19ced7262ebec46a8604f2932f107d, type: 3}
+  levelFinish: {fileID: 8300000, guid: e0b9aec8adb44984a8d678b7b3c56e99, type: 3}
