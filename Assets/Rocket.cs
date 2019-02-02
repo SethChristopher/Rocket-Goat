@@ -107,7 +107,7 @@ public class Rocket : MonoBehaviour {
 
     private void ApplyThrust()
     {
-        rigidBody.AddRelativeForce(Vector3.up * mainThrust);
+        rigidBody.AddRelativeForce(Vector3.up * mainThrust * Time.deltaTime);
         playerBoost.Play();
         if (!audioSource.isPlaying)
         {
@@ -118,7 +118,13 @@ public class Rocket : MonoBehaviour {
 
     private void LoadNextLevel()
     {
-        SceneManager.LoadScene(1);
+        int n = SceneManager.GetActiveScene().buildIndex;
+        if (n == 2)
+        {
+            LoadFirstLevel();
+            
+        }
+        else SceneManager.LoadScene(n + 1);
     }
 
     private void LoadFirstLevel()

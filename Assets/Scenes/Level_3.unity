@@ -131,7 +131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementVector: {x: 6, y: 6, z: 0}
-  movementFactor: 0
+  period: 2
 --- !u!4 &180014631 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4410427873677272, guid: 37bab861c4948424e9edef031693614c,
@@ -1078,11 +1078,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4961222500485738, guid: fed94381bdf839e4aa87d8fcb5369105, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -19.77
+      value: -20.28
       objectReference: {fileID: 0}
     - target: {fileID: 4961222500485738, guid: fed94381bdf839e4aa87d8fcb5369105, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.6907
+      value: 4.23
       objectReference: {fileID: 0}
     - target: {fileID: 4961222500485738, guid: fed94381bdf839e4aa87d8fcb5369105, type: 3}
       propertyPath: m_LocalPosition.z
