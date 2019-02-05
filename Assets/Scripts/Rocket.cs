@@ -8,7 +8,7 @@ public class Rocket : MonoBehaviour {
 
     [SerializeField] float rcsThrust = 10f;
     [SerializeField] float mainThrust = 10f;
-    [SerializeField] float levelLoadDelay = 2f
+    [SerializeField] float levelLoadDelay = 2f;
     [SerializeField] AudioClip mainEngine;
     [SerializeField] AudioClip playerDeath;
     [SerializeField] AudioClip levelFinish;
